@@ -1,11 +1,10 @@
-
 import React from 'react'
-import Home from './components/Home'
+import Skills from '../components/Skills/Skills'
 
 const page = () => {
   return (
-    <div className='bg-slate-100'>
-      <Home />
+    <div>
+       <Skills/>
     </div>
   )
 }

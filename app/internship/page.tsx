@@ -1,11 +1,10 @@
-
 import React from 'react'
-import Home from './components/Home'
+import Internship from '../components/Internship/Internship'
 
 const page = () => {
   return (
-    <div className='bg-slate-100'>
-      <Home />
+    <div>
+      <Internship/>
     </div>
   )
 }
